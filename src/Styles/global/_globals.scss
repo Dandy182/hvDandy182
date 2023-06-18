@@ -1,3 +1,5 @@
+@use './variables' as v;
+
 html{
     box-sizing: border-box;
     font-size: 62.5%;
@@ -17,4 +19,24 @@ html{
 
 img{
     max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    margin:1rem 0;
+    padding: 1rem;
+
+}
+
+h1{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+    font-size: 1.6rem;
+    font-family: v.$fontText;
 }

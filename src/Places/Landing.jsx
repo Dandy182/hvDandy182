@@ -19,7 +19,7 @@ export default function LandingPage(){
                 <h1>Daniel Yesid Cely Robayo</h1>
                 <p>FrontEnd Developer</p>
 
-                <Link to='/' className="btn btn__Contact">Contactame</Link>
+                <Link to='/about' className="btn btn__Contact effect"><span>Contactame</span></Link>
             </div>
         </div>
     </div>)

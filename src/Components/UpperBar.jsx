@@ -1,6 +1,7 @@
 import React from "react";
 
 
-export default UpperBar(){
+export default function UpperBar(){
     
+    return(<div></div>)
 }

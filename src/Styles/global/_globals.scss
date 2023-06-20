@@ -12,13 +12,14 @@ html{
 }
 
 .contenedor{
-    width:1000px;
+    width:1200px;
     margin: 0 auto;
     max-width: 95%;
 }
 
 img{
     max-width: 100%;
+    display: block;
 }
 
 a{
@@ -33,6 +34,8 @@ a{
 
 h1{
     margin: 0;
+    font-size:4rem;
+    font-family: v.$fontTitle;
 }
 
 p{

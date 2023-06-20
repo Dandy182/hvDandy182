@@ -1,41 +1,38 @@
 @use '../global/variables' as v;
 
-.landing{
-    
-    margin:v.$spaced 0;
+.bg{
+    height: 100vh;
+    background-color: rgb(29, 29, 29);
+}
+
+.ub{
     display: flex;
     flex-direction: column;
-    min-height:100vh ;
     align-items: center;
     justify-content: center;
+    min-height: 100%;
+}
+
+
+.miFoto{
+    clip-path: circle(45% at 50% 50%);
+    max-width: 60%;
+}
+
+@media only screen and (min-width:1000px){
     
-}
-
-.imgPersona{
-    clip-path: circle(45% at 50% 45%);
-    width: 100vh ;
-    max-width:65% ;
-    margin:0 auto;
-}
-
-.InfoLanding{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    h1{
-        font-family: v.$fontTitle;
-        font-weight: 300;
-        font-size: v.$bigText;
+    .ub{
+        flex-direction: row;
     }
-    p{
-        line-height: 2;
-        font-weight: 200;
-        font-size: v.$bigText;
+    
+    .miFoto{
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
     }
 }
 
-.btn__Landing{
-    background-color: aquamarine;
-    color:white;
-    font-size: 2rem;
+
+.infoBase{
+    color: #bfbfbf;
+    text-shadow: 2px 1px 1px rgb(209, 86, 77);
+    padding:2rem 0
 }

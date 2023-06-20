@@ -1,20 +1,22 @@
 import React from "react";
-import {Link} from "react-router-dom";
 import miFoto from '../img/FotoII.png';
+// import { NavLink } from "react-router-dom";
+
 
 
 export default function LandingPage(){
     
-    return (<div className="contenedor">
-        <div className="landing">
-            <div className='imgPersona'>
-                <img src={miFoto} alt='mi foto'/>
-            </div>
-            <div className="InfoLanding">
+    return (<div className="bg">
+        <aside>
+        </aside>
+        <div className="contenedor ub">
+            <img className="miFoto" src={miFoto} alt="mi foto"/>
+            <div className="infoBase">
+                <p>Hola, me llamo</p>
                 <h1>Daniel Yesid Cely Robayo</h1>
-                <p>Frontend Developer</p>
-                <Link to='/' className='btn btn__Landing'>Conoceme</Link>
+                <p>FrontEnd Developer</p>
             </div>
+            {/* <NavLink to='/'  /> */}
         </div>
     </div>)
 

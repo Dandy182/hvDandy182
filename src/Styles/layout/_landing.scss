@@ -19,20 +19,39 @@
     max-width: 60%;
 }
 
+.infoBase{
+    color: #bfbfbf;
+    text-shadow: 2px 1px 1px #d1564d;
+    padding:2rem;
+}
+
 @media only screen and (min-width:1000px){
     
     .ub{
         flex-direction: row;
+        overflow: hidden;
     }
     
     .miFoto{
         clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+        overflow: hidden;
+        img{
+            max-height: 99vh;
+        }
     }
+
+    .infoBase{
+        padding: 2rem 0;
+    }
+
 }
 
-
-.infoBase{
-    color: #bfbfbf;
-    text-shadow: 2px 1px 1px rgb(209, 86, 77);
-    padding:2rem 0
+.btn__Contact{
+    background-color: #46dbb3;
+    color:#fff;
+    display:block;
+    text-align: center;
+    text-shadow: none;
+    font-weight: 600;
 }
+

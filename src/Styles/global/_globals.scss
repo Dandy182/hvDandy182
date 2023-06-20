@@ -24,11 +24,13 @@ img{
 
 a{
     text-decoration: none;
+    font-size: 1.6rem;
 }
 
 .btn{
-    margin:1rem 0;
+    margin:2rem 0;
     padding: 1rem;
+    font-family: v.$fontText;
 
 }
 
@@ -43,3 +45,4 @@ p{
     font-size: 1.6rem;
     font-family: v.$fontText;
 }
+

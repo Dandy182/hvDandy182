@@ -7,8 +7,9 @@ export default function About(){
     return(
     <div className="about bg">
         <UpperBar />
-        <div className="contenedor">
-        </div>
+        <main className="contenedor">
+            <p></p>
+        </main>
         
         </div>)
 }

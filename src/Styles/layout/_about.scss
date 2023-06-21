@@ -1,0 +1,7 @@
+@use '../global/variables' as v;
+@use '../global/mixing' as m;
+
+
+.info__about{
+    padding: v.$spaced 1rem;
+}

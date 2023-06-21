@@ -1,12 +1,13 @@
 import React from "react";
+import UpperBar from "../Components/UpperBar";
 
 
 export default function About(){
 
     return(
-    <div className="about">
+    <div className="about bg">
+        <UpperBar />
         <div className="contenedor">
-            <h1>About</h1>
         </div>
         
         </div>)

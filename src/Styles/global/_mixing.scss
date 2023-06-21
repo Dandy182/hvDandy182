@@ -1,0 +1,14 @@
+@mixin pantalla($screen){
+    @media only screen and (min-width:$screen){
+       @content;
+    }
+
+}
+
+@mixin flex($direction:row, $jContent:center, $aItems:center){
+    display: flex;
+    flex-direction: $direction;
+    justify-content:$jContent ;
+    align-items: $aItems;
+    @content;
+}

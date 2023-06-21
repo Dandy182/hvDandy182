@@ -1,16 +1,23 @@
 @use '../global/variables' as v;
+@use '../global/mixing' as m;
 
 .bg{
     height: 100vh;
     background-color: v.$negro ;
 }
 
+// .ub{
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+//     min-height: 100%;
+// }
+
 .ub{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100%;
+    @include m.flex(column){
+        min-height: 100%;
+    }
 }
 
 
@@ -25,7 +32,7 @@
     padding:2rem;
 }
 
-@media only screen and (min-width:1000px){
+@include m.pantalla(1000px){
     
     .ub{
         flex-direction: row;

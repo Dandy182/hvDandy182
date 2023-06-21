@@ -1,7 +1,9 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-export default function Boton(route, textBoton){
 
-    return(<Link to={route} className="btn"><span>{textBoton}</span></Link>)
+
+
+export default function Boton({ruta, styleButton}){
+
+    return(<NavLink to={ruta} className={styleButton}><span>Contactame</span></NavLink>)
 }

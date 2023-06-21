@@ -6,11 +6,21 @@
     padding:v.$spaced;
 }
 
-.uppLeft{
-    
+.bar{
+    @include m.pantalla(1000px){
+        @include m.flex(row, space-between, center)
+        
+    }
+}
+
+.uppLeft{ 
     @include m.flex{
         gap:1rem
     };
+
+    p{
+        @include m.textShadow;
+    }
 
     .upperBar__foto{
         max-width: 50px;
@@ -18,8 +28,23 @@
     }
 }
 
-.fa-brands.fa-github{
-    color:v.$blanco;
-    width: 10px;
-    height: 10px;
+.uppRight{
+    @include m.flex{
+        gap: 1rem;
+    }
+    
+    .icon{
+        color:v.$blanco;
+        font-size: 3rem;
+        transition: all .4s ease;
+    }
+
+}
+
+.icon{
+    & :hover{
+        transform: scale(1.05);
+        color:v.$salmon;
+    }
+    
 }

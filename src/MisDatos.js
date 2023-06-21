@@ -6,6 +6,8 @@ const yo = {
     ocupacion:"Tecnologo mant. equipos de computo, diseño e instalación de cableado estructurado",
     aspiracion:"Frontend Developer",
     foto:miFotografia,
+    linkedIn:"https://www.linkedin.com/in/daniel-yesid-cely-robayo-361b33164/",
+    github:"https://github.com/Dandy182"
 
 }
 

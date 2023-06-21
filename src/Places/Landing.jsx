@@ -1,4 +1,3 @@
-import React from "react";
 import yo from '../MisDatos';
 import Foto from "../Components/Foto";
 import Boton from "../Components/Boton";

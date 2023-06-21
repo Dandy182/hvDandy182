@@ -1,0 +1,25 @@
+@use '../global/variables' as v;
+@use '../global/mixing' as m;
+
+.upperBar{
+    color:v.$blanco;
+    padding:v.$spaced;
+}
+
+.uppLeft{
+    
+    @include m.flex{
+        gap:1rem
+    };
+
+    .upperBar__foto{
+        max-width: 50px;
+        clip-path: circle(45% at 50% 50%);
+    }
+}
+
+.fa-brands.fa-github{
+    color:v.$blanco;
+    width: 10px;
+    height: 10px;
+}

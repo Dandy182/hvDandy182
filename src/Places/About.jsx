@@ -1,5 +1,6 @@
 import React from "react";
 import UpperBar from "../Components/UpperBar";
+import Datos from '../MisDatos';
 
 
 export default function About(){
@@ -14,11 +15,15 @@ export default function About(){
             </article>
             <article className="info__about">
                 <h2>Tecnologias con las he trabajado</h2>
+                <div className="misTecnologias">
+                    {Datos.tecnologias.map(t => {
+                        return <div>
+                            <img src={t.img} alt={t.nombre} />
+                            <p>{t.nombre}</p> 
+                            </div>})}
+                </div>
             </article>
         </main>
-        <div className="bg__portafolio">
-
-        </div>
         
         </div>)
 }

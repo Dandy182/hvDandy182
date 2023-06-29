@@ -1,7 +1,46 @@
 @use '../global/variables' as v;
 @use '../global/mixing' as m;
 
+.bg.about{
+    min-height: 100%;
+    height: fit-content;
+}
+
+main{
+    width: 100vh;
+}
 
 .info__about{
     padding: v.$spaced 1rem;
+}
+
+.misTecnologias{
+    padding: v.$spaced 0;
+    
+    @include m.flex(){
+        gap:v.$spaced;
+        flex-wrap: wrap;
+    }
+    .campoTeconologia{
+        padding:v.$spaced;
+        text-align: center;
+        color:v.$blanco;
+        height: 250px;
+        @include m.flex(){
+            flex-direction: column;
+            gap:1rem;
+            align-items: center;
+            justify-content: space-between;
+        }
+        img{
+            width: 15rem;
+            margin: 0 auto;
+            padding: 1rem 0;
+        }
+        .textTech{
+            font-size: 4vh;
+
+        }
+    }
+
 }

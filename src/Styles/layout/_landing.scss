@@ -2,8 +2,8 @@
 @use '../global/mixing' as m;
 
 .bg{
+    background-color: v.$negro;
     height: 100vh;
-    background-color: v.$negro ;
 }
 
 .ub{

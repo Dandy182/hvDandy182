@@ -6,7 +6,7 @@ import Datos from '../MisDatos';
 export default function About(){
 
     return(
-    <div className="about bg">
+    <div className={"bg about"}>
         <UpperBar />
         <main className="contenedor">
             <article className="info__about">
@@ -14,12 +14,12 @@ export default function About(){
 
             </article>
             <article className="info__about">
-                <h2>Tecnologias con las he trabajado</h2>
+                <h2>Tecnologias </h2>
                 <div className="misTecnologias">
-                    {Datos.tecnologias.map(t => {
-                        return <div>
+                    {Datos.tecnologias.map((t, index) => {
+                        return <div key={index} className="campoTeconologia">
                             <img src={t.img} alt={t.nombre} />
-                            <p>{t.nombre}</p> 
+                            <p className="textTech">{t.nombre}</p> 
                             </div>})}
                 </div>
             </article>

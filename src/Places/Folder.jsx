@@ -11,10 +11,12 @@ export default function Folder(){
             <h2>Mi Portafolio</h2>
             <div className="projectosGeneral">
                 {
-                    yo.portafolio.map(p => {
-                        return (<div className="projectData">
+                    yo.portafolio.map((p, i) => {
+                        return (<a href={p.link} target="_blank">
+                        <div className="projectData" key={i}>
                         <img src={p.img} alt={p.nombre} />
-                       </div>)
+                       </div>
+                        </a>)
                     })
   
                 }

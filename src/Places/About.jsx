@@ -1,12 +1,12 @@
 import React from "react";
 import UpperBar from "../Components/UpperBar";
 import Datos from '../MisDatos';
-
+import {motion} from 'framer-motion'
 
 export default function About(){
 
     return(
-    <div className={"bg about"}>
+    <motion.div className={"bg about"}>
         <UpperBar />
         <main className="contenedor">
             <article className="info__about">
@@ -29,5 +29,5 @@ export default function About(){
             </article>
         </main>
         
-        </div>)
+        </motion.div>)
 }

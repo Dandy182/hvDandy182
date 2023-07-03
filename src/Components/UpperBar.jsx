@@ -4,8 +4,7 @@ import yo from '../MisDatos';
 import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faGithub, faLinkedinIn} from "@fortawesome/free-brands-svg-icons";
-import About from "../Places/About";
-import Folder from "../Places/Folder";
+
 
 
 export default function UpperBar(){
@@ -18,6 +17,11 @@ export default function UpperBar(){
                 <Foto img={foto} nameFoto={nombre} sFoto={'upperBar__foto'} />
                 <p>{nombre}</p>
                 </div>
+
+            <nav className="menu">
+                <NavLink className="menuBtn" to={'/about'} >About</NavLink>
+                <NavLink className="menuBtn" to={'/folder'}>Folder</NavLink>
+            </nav>
 
             <div className="uppRight">
                 <Link target="_blank" className="icon" to={github}>

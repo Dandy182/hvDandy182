@@ -18,7 +18,7 @@ export default function About(){
                 </div>
             </article>
             <article className="info__about">
-                <h2>Tecnologias </h2>
+                <h2>Tecnologías </h2>
                 <div className="misTecnologias">
                     {Datos.tecnologias.map((t, index) => {
                         return <div key={index} className="campoTeconologia">

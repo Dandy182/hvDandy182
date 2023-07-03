@@ -9,7 +9,7 @@ export default function LandingPage(){
 
     const {nombre, aspiracion, foto} = yo;
     
-    return (<div className="bg">
+    return (<div className={"bg landing"}>
         <aside>
         </aside>
         <div className="contenedor ub">

@@ -2,6 +2,7 @@
 @use '../global/mixing' as m;
 
 .bg.about{
+    
     min-height: 100%;
     height: fit-content;
 }
@@ -11,7 +12,19 @@ main{
 }
 
 .info__about{
-    padding: v.$spaced 1rem;
+    padding: 4rem 1rem;
+}
+
+.aboutMe{
+    padding: 1rem 0;
+    .info{
+        padding: 1rem 0;
+        .parrafo{
+            font-size: 2rem;
+            text-align: justify;
+            line-height: 3.5rem;
+        }
+    }
 }
 
 .misTecnologias{

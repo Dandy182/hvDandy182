@@ -2,8 +2,24 @@
 @use '../global/mixing' as m;
 
 
+.contenedor.projects{
+    padding:4rem 0;
+    h2{
+        padding:v.$spaced;
+    }
+}
+
+.projectosGeneral{
+    @include m.flex(row, space-around, top){
+        gap:1rem;
+        flex-wrap:wrap;
+
+    }
+}
+
 .projectData{
     max-width: 300px;
+    max-height: 150px;
     padding:.5rem;
     border: 2px solid v.$blanco;
     position: relative;
@@ -30,4 +46,20 @@
 
 }
 
+.cover{
+    max-width: 300px;
+    padding:1rem;
+    color:v.$blanco;
+    line-height: 1.5;
+    span{
+        color: v.$salmon;
+    }
+    .icon{
+        color:v.$blanco;
+        font-size: 3rem;
+        @include m.flex(row, left, left){
+            gap:1rem
+        }
+    }
+}
 

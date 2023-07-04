@@ -2,7 +2,7 @@ import React from "react";
 import UpperBar from "../Components/UpperBar";
 import {motion} from 'framer-motion'
 import yo from '../MisDatos';
-import { Link, NavLink } from "react-router-dom";
+import { Link} from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
 

@@ -11,7 +11,7 @@ export default function About(){
         <main className="contenedor">
             <article className="info__about">
                 <h2>Sobre mi</h2>
-
+                <p>{Datos.about}</p>                
             </article>
             <article className="info__about">
                 <h2>Tecnologias </h2>

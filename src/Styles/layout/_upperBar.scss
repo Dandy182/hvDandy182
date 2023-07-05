@@ -14,6 +14,21 @@
     }
 }
 
+.menu{
+    text-align: center;
+    @include m.pantalla(700px){
+        @include m.flex(row, center, center);
+        margin:0 auto;
+    }
+    .menuBtn{
+        color:v.$blanco;
+        display: block;
+        padding:.5rem 1rem;
+        font-family: v.$fontText;
+    }
+    
+}
+
 .uppLeft{ 
     @include m.flex{
         gap:1rem
@@ -30,6 +45,7 @@
 }
 
 .uppRight{
+    padding:1rem 0;
     @include m.flex{
         gap: 1rem;
     }

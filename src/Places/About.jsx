@@ -1,20 +1,24 @@
 import React from "react";
 import UpperBar from "../Components/UpperBar";
 import Datos from '../MisDatos';
-
+import {motion} from 'framer-motion'
 
 export default function About(){
 
     return(
-    <div className={"bg about"}>
+    <motion.div className={"bg about"}>
         <UpperBar />
         <main className="contenedor">
             <article className="info__about">
                 <h2>Sobre mi</h2>
-                <p>{Datos.about}</p>                
+                <div className="aboutMe">
+                    <div className="info">
+                       {Datos.about.map((dato, i) => <p className="parrafo" key={i}>{dato}</p>)}
+                    </div>
+                </div>
             </article>
             <article className="info__about">
-                <h2>Tecnologias </h2>
+                <h2>Tecnologías </h2>
                 <div className="misTecnologias">
                     {Datos.tecnologias.map((t, index) => {
                         return <div key={index} className="campoTeconologia">
@@ -25,5 +29,5 @@ export default function About(){
             </article>
         </main>
         
-        </div>)
+        </motion.div>)
 }

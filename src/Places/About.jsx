@@ -1,6 +1,5 @@
 import React from "react";
 import UpperBar from "../Components/UpperBar";
-import Boton from '../Components/Boton';
 import Datos from '../MisDatos';
 import {motion} from 'framer-motion'
 
@@ -16,7 +15,7 @@ export default function About(){
                     <div className="info">
                        {Datos.about.map((dato, i) => <p className="parrafo" key={i}>{dato}</p>)}
                        <div className="btn-About">
-                            <Boton ruta={Datos.hv} styleButton={"btn btn__Contact effect"} label={'Curriculum'} />
+                            <a href={Datos.hv} download={'curriculm'} className={"btn btn__Contact effect"} ><span>Mi Curriculum</span></a>
                        </div>
                     </div>
                 </div>

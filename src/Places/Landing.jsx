@@ -15,7 +15,7 @@ export default function LandingPage(){
                 <p>Hola, soy</p>
                 <h1>{nombre}</h1>
                 <p>{aspiracion}</p>
-                <Boton ruta={'/about'} styleButton={"btn btn__Contact effect"} />
+                <Boton ruta={'/about'} styleButton={"btn btn__Contact effect"} label={'Contactame'} />
             </div>
         </div>
     </motion.div>)

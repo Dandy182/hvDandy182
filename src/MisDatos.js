@@ -4,7 +4,7 @@ import BlogDeCafe from '../src/img/BlogDeCafé.png';
 import FrontEndStore from '../src/img/FrontEndStore.png';
 import mBH from '../src/img/mom,baby &home.png';
 import dandy182 from '../src/img/Dandy182.png';
-import cv from './CV.pdf'
+import cv from '../src/CV.pdf';
 const yo = {
     nombre:"Daniel Yesid Cely Robayo",
     ocupacion:"Tecnologo mant. equipos de computo, diseño e instalación de cableado estructurado",

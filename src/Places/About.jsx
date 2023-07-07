@@ -16,7 +16,7 @@ export default function About(){
                     <div className="info">
                        {Datos.about.map((dato, i) => <p className="parrafo" key={i}>{dato}</p>)}
                        <div className="btn-About">
-                            <Boton ruta={Datos.hv} download='' styleButton={"btn btn__Contact effect"} label={'Curriculum'} />
+                            <Boton ruta={Datos.hv} styleButton={"btn btn__Contact effect"} label={'Curriculum'} />
                        </div>
                     </div>
                 </div>

@@ -21,6 +21,7 @@ export default function UpperBar(){
             <nav className="menu">
                 <NavLink className="menuBtn" to={'/about'} >About</NavLink>
                 <NavLink className="menuBtn" to={'/folder'}>Folder</NavLink>
+                <NavLink className="menuBtn" to={'/contact'}>Contacto</NavLink>
             </nav>
 
             <div className="uppRight">

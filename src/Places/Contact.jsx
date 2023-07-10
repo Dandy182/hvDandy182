@@ -38,7 +38,7 @@ export default function Contact(){
                     <textarea className="textMensaje"/>
                 </div>
 
-                <input type='submit' value='enviar' className="btn btn__Contact" />
+                <input type='submit' value='enviar' className="btn btn__Contact btn_form" />
             </form>
         </div>
 

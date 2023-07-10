@@ -5,6 +5,7 @@ import About from "../Places/About";
 
 import {AnimatePresence} from 'framer-motion';
 import Folder from "../Places/Folder";
+import Contact from "../Places/Contact";
 
 export default function AnimateRoutes(){
 
@@ -14,8 +15,9 @@ export default function AnimateRoutes(){
     <AnimatePresence>
         <Routes location={location} key={location.pathname}>
             <Route exact path="/" element={<LandingPage />} />
-            <Route exact path='/about' element={<About />} />
+            <Route exact path="/about" element={<About />} />
             <Route exact path="/folder" element={<Folder />} />
+            <Route exact path="/contact" element={<Contact />} />
         </Routes>
     </AnimatePresence>
     )

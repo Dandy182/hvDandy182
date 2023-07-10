@@ -1,5 +1,9 @@
 @use '../global/variables' as v;
 
+.contactForm{
+    max-width: 60rem;
+    margin:0 auto;
+}
 
 .campo{
     font-family: v.$fontText;
@@ -12,7 +16,8 @@
     }
     input{
         width: 100%;
-        border:none
+        border:none;
+        padding:.2rem .5rem;
     }
     textarea{
         display: block;
@@ -23,7 +28,8 @@
 
 .btn_form{
     border:none;
-    margin: 0 auto;
+    margin: 2rem auto;
     display: block;
-    
+    font-size: 1.8rem;
+    padding:1rem 2.5rem;
 }

@@ -4,7 +4,10 @@ import BlogDeCafe from '../src/img/BlogDeCafé.png';
 import FrontEndStore from '../src/img/FrontEndStore.png';
 import mBH from '../src/img/mom,baby &home.png';
 import dandy182 from '../src/img/Dandy182.png';
+import Festival from '../src/img/Rock & EDM Festival.png'
 import cv from '../src/CV.pdf';
+
+
 const yo = {
     nombre:"Daniel Yesid Cely Robayo",
     ocupacion:"Tecnologo mant. equipos de computo, diseño e instalación de cableado estructurado",
@@ -20,6 +23,7 @@ const yo = {
 }, {nombre:'freelancer', link:`https://dandy182.github.io/Freelancer/`, github:'https://github.com/Dandy182/Freelancer', tecnologias:'HTML & CSS', img:freelancer
 }, {nombre:'blogDeCefé', link:`https://dandy182.github.io/blog_cafe/`, github:'https://github.com/Dandy182/blog_cafe', tecnologias:'HTML & CSS', img:BlogDeCafe
 }, {nombre:'FrontEnd Store', link:`https://dandy182.github.io/FrontEnd_Store/`, github:'https://github.com/Dandy182/FrontEnd_Store', tecnologias:'HTML & CSS', img:FrontEndStore
+}, {nombre:'festival de Rock & EDM', link:`https://dandy182.github.io/musicfest/`, github:'https://github.com/Dandy182/musicfest', tecnologias:'HTML, CSS, JS', img:Festival
 }]
 
 }
